@@ -5,8 +5,8 @@
 hello()
 }
 \description{
-Prints 'Hello, world!'.
+Prints 'x^2'.
 }
 \examples{
-hello()
+hello(3)
 }
