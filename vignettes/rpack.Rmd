@@ -1,0 +1,24 @@
+---
+title: "rpack"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{rpack}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(rpack)
+hello(3)
+```
+### Instructions:
+1. Save the above code in an R Markdown file (with a `.Rmd` extension).
+2. Ensure your dataset is in the working directory and adjust the file name and variable names as necessary.
+3. Open the file in RStudio and click the "Knit" button to generate the report.
